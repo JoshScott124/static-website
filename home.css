@@ -1,0 +1,201 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 1;
+}
+
+html {
+  font-size: 70%;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+header, section, footer {
+padding: 10rem;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: mediumorchid;
+  border-style: solid;
+  border-width: thick;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  width: 20rem;
+  height: 3rem;
+  font-size: 3rem;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #777;
+}
+
+h1 {
+  font-size: 50px;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 550px;
+}
+
+.left {
+  width: 40%;
+}
+
+.home-img-left {
+  margin-top: 30px;
+  border-radius: 10px;
+  border-width: medium;
+  border-color: black;
+  border-style: solid;
+}
+
+.home-list-left {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.right {
+  width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-para-left {
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.home-para-right {
+  margin-top: 130px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.home-heading-right {
+  margin-top: 50px;
+  text-decoration: underline;
+
+}
+
+.about-img-left {
+  margin-top: 10px;
+  resize:
+}
+
+.about-heading-right {
+  margin-left: 150px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.about-para-right {
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 20px
+}
+
+.tv-img-left2 {
+  margin-top: -20px;
+}
+.tv-heading-right2 {
+  margin-top: 260px;
+text-decoration: underline;
+}
+
+.tv-heading-right {
+text-decoration: underline;
+}
+.tv-para-right {
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.tv-para-right2 {
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+.movies-img-left {
+  margin-left: 150px;
+}
+
+.movies-img-left2 {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.movies-para-right {
+  font-size: 19px;
+  margin-top: 50px;
+}
+.movies-heading-right2 {
+  margin-top: 290px;
+  text-decoration: underline;
+}
+
+.movies-heading-right {
+    text-decoration: underline;
+}
+
+.movies-para-right2 {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.games-img-left {
+  margin-left: 50px
+}
+
+.games-img-left2 {
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+.games-heading-right {
+  text-decoration: underline;
+}
+
+.games-heading-right2 {
+  margin-top: 270px;
+  text-decoration: underline;
+}
+
+.games-para-right {
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.games-para-right2 {
+  font-size: 17px;
+  margin-top: 70px;
+}
